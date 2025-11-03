@@ -5,7 +5,7 @@ import { useLocation } from "react-router-dom";
 import { navigation } from "../constants";
 import Button from "./button";
 import MenuSvg from "../assets/svg/MenuSvg";
-import { HamburgerMenu } from "./design/header";
+import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
 import icon from "../assets/icon.webp";
 const Header = () => {
