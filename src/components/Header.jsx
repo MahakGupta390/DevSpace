@@ -10,7 +10,7 @@ import { useState } from "react";
 import icon from "../assets/icon.webp";
 const Header = () => {
   const pathname = useLocation();
-  const [openNavigation, setOpenNavigation] = useState(true);
+  const [openNavigation, setOpenNavigation] = useState(false);
   const toggleNavigation = () => {
     if (openNavigation) {
       setOpenNavigation(false);
@@ -87,9 +87,7 @@ const Header = () => {
         <Button className="hidden lg:flex" href="./SignUp">
           Sign In
         </Button>
-        {/* <Link to="/signup" className="hidden lg:flex">
-  <Button>Sign In</Button>
-</Link> */}
+       
 
         <Button
           className="ml-auto lg:hidden"
